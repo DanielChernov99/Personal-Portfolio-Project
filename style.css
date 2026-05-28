@@ -562,4 +562,20 @@ section{
         height: 48px;
         flex-shrink: 0;
     }
+
+    .contact-content,
+    .projects-cards-container,
+    .nav-link-container {
+        max-width: 100%;
+    }
+
+    .contact-row {
+        max-width: 100%;
+        flex-wrap: wrap;
+    }
+
+    .contact-row a,
+    .contact-row p {
+        overflow-wrap: anywhere;
+    }
 }
