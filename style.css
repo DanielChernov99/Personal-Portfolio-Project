@@ -4,6 +4,13 @@
     box-sizing:border-box;
 }
 
+/* Common Styles */
+.rounded-corners-button{
+    padding: 12px 24px;
+    border: none;
+    border-radius: 999px;
+}
+
 /* Design Guidelines - the guidelines we got to follow
 might change few if approved */
 body{
