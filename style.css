@@ -192,7 +192,7 @@ section{
 }
 .skill-name{
     width: 100px;
-    
+    font-weight: 700;
 }
 
 /* FILLING THE % FOR EACH SKILL */
@@ -271,10 +271,8 @@ section{
 
 .project-button{
     text-decoration: none;
-    display: inline-block;
     background-color: #FF9500;
     color: #FFFFFF;
-    padding: 0.75rem 1.5rem;
     align-self: flex-start;
     margin-top: auto;
 
@@ -372,4 +370,34 @@ section{
     width: 100%;
     height: 100%;
     object-fit: contain;
+}
+
+.input-group label{
+    font-size: 1rem;
+    font-weight: 700;
+    color: #3A3A3C;
+}
+
+.form-container input,
+.form-container textarea{
+    padding: 0.75rem 1rem;
+    border: 1px solid #D1D1D6;
+    border-radius: 12px;
+    font-family: inherit;
+    font-size: 1rem;
+    color: #3A3A3C;
+    corner-shape: squircle;
+    resize: vertical;
+}
+
+.info-data-container a{
+    text-decoration: none;
+    color: #3A3A3C;
+    font-size: 1rem;
+    line-height: 1.6;
+    padding: 0.25rem 0.5rem;
+}
+
+.info-data-container a:hover{
+    color: #007AFF;
 }
