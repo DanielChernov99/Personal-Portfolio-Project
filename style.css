@@ -240,8 +240,7 @@ section{
     display: flex;
     flex-direction: column;
     flex:1;
-    padding: 0;
-    gap: 0;
+
 
 }
 
@@ -335,15 +334,10 @@ section{
 }
 
 
-.contact-image-container{
-    flex:1;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 
 .social-image-container {
-    width: 15%;
+    width: 20%;
     aspect-ratio: 1 / 1;
     border-radius: 50%;
     background-color: #007AFF;
