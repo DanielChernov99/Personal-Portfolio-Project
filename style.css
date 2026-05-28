@@ -80,6 +80,9 @@ section{
     align-items: center;
     padding: 1rem 0;  
 }
+.nav-container h2{
+    color: #007AFF;
+}
 .nav-link-container{
     display: flex;
     gap: 2rem;
