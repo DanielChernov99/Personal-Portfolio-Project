@@ -91,8 +91,7 @@ section{
     font-weight: 400;
     padding: 0.25rem 0.5rem;
 }
-.nav-link-container > li:nth-child(2) .nav-link,
-.nav-link-container > li:nth-child(3) .nav-link {
+.nav-link-container > li .nav-link {
     font-weight: 700;
 }
 .nav-link-container a:hover{
