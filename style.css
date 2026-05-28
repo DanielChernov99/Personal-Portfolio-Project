@@ -204,3 +204,37 @@ section{
 #fillReact{
     width: 70%;
 }
+
+/* -----------------------------------*/
+/* ---------Projects Section--------- */
+/* -----------------------------------*/
+.projects-section{
+    background-color: #F2F2F7;
+}
+
+.projects-container{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+.projects-cards-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+.project-card{
+    display: flex;
+    flex-direction: column;
+    background-color: #FFFFFF;
+    width: 100%;
+    padding: 1.5rem;
+    gap: 1rem;
+
+}
+.project-info-container{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
