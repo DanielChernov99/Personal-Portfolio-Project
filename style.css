@@ -388,3 +388,36 @@ section{
 .info-data-container a:hover{
     color: #007AFF;
 }
+
+.contact-row{
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+.contact-row img{
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+}
+
+
+
+/* -----------------------------------*/
+/* ---------Footer Section--------- */
+/* -----------------------------------*/
+.footer-container{
+    background-color: #1b2535;
+    padding: 2rem 0;
+}
+
+.footer-content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer-content p{
+    color: #FFFFFF;
+    font-size: 1rem;
+    font-weight: 600;
+}
