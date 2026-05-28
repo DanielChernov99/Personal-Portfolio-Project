@@ -7,19 +7,19 @@
 /* Design Guidelines - the guidelines we got to follow
 might change few if approved */
 body{
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
 }
 h1{
     font-size: 2.5rem;
-    color: #3A3A3C
+    color: #3A3A3C;
 }
 h2{
     font-size: 2rem;
-    color: #3A3A3C
+    color: #3A3A3C;
 }
 h3{
     font-size: 1.5rem;
-    color: #3A3A3C
+    color: #3A3A3C;
 }
 p{
     font-size: 1rem;
@@ -39,7 +39,7 @@ section{
 /* --------------------- */
 /* --------Header -------*/
 /* --------------------- */
-.header{
+.header-container{
     background-color: #FFFFFF;
     }
 .nav-container{
