@@ -76,9 +76,9 @@ section{
     border-radius: 5px;
 }
 
-/* --------------------- */
+/* ------------------------------ */
 /* ---------Home Section--------- */
-/* --------------------- */
+/* -------------------------------*/
 .home-section{
     background-color: #F2F2F7;
 }
@@ -128,4 +128,16 @@ section{
     color: #FFFFFF;
     padding: 0.75rem 1.5rem;
     align-self: flex-start;
+}
+
+
+/* ------------------------------ */
+/* ---------About Section--------- */
+/* -------------------------------*/
+
+.about-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
 }
