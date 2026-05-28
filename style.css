@@ -4,9 +4,14 @@
     box-sizing:border-box;
 }
 
-/* Common Styles */
+/* rounded Styles */
 .rounded-corners-button{
     padding: 12px 24px;
+    border: none;
+    border-radius: 999px;
+}
+.rounded-bar{
+    padding: 6px 0;
     border: none;
     border-radius: 999px;
 }
@@ -169,9 +174,33 @@ section{
     /* flex:1; */
     height: 10px;
     background-color: #D1D1D6;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
 
 }
 .skill-name{
     width: 100px;
     
+}
+
+/* FILLING THE % FOR EACH SKILL */
+.skill-bar-fill{
+    height: 10px;
+    background-color: #007AFF;
+}
+
+#fillPython{
+    width: 90%;
+}
+#fillJava{
+    width: 90%;
+}
+
+#fillJavaScript{
+    width: 80%;
+}
+
+#fillReact{
+    width: 70%;
 }
