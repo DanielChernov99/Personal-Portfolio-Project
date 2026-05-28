@@ -389,7 +389,7 @@ section{
     corner-shape: squircle;
     resize: vertical;
 }
-
+.info-data-container p,
 .info-data-container a{
     text-decoration: none;
     color: #3A3A3C;
