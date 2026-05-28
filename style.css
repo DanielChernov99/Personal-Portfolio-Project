@@ -152,6 +152,7 @@ section{
 
 .skills-content{
     display: flex;
+    flex:1;
     flex-direction: column;
     gap: 1rem;
 }
@@ -168,4 +169,8 @@ section{
     height: 10px;
     background-color: #D1D1D6;
 
+}
+.skill-name{
+    width: 100px;
+    
 }
