@@ -30,3 +30,38 @@ section{
     margin: 0 auto;
     padding: 0 3rem;
 }
+/* -------------end guidelines------------------- */
+
+
+/* --------------------- */
+/* --------Header -------*/
+/* --------------------- */
+.header{
+    background-color: #FFFFFF;
+    }
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 0;  
+}
+.nav-link-container{
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+.nav-link-container a{
+    text-decoration: none;
+    color: #8E8E93;
+    font-weight: 400;
+    padding: 0.25rem 0.5rem;
+}
+.nav-link-container > li:nth-child(2) .nav-link,
+.nav-link-container > li:nth-child(3) .nav-link {
+    font-weight: 700;
+}
+.nav-link-container a:hover{
+    color: #000000;
+    background-color: #F2F2F7;
+    border-radius: 5px;
+}
