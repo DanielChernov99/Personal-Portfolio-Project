@@ -428,6 +428,35 @@ section{
 
 @media (max-width: 670px) {
 
+    .container {
+        padding: 0 1rem;
+    }
+
+    .nav-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 0.75rem;
+        padding: 0.75rem 0;
+    }
+
+    .nav-container h2 {
+        font-size: 1.6rem;
+        text-align: center;
+        line-height: 1.1;
+    }
+
+    .nav-link-container {
+        width: 100%;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 0.5rem 1rem;
+    }
+
+    .nav-link-container a {
+        font-size: 0.85rem;
+        padding: 0.2rem 0.35rem;
+    }
+
     .home-container{
         flex-direction: column;
         justify-content: center;
@@ -435,15 +464,102 @@ section{
     }
     .home-content {
         align-items: center;
+        text-align: center;
     }
     .home-button {
         align-self: center;
     }
     .about-container {
         flex-direction: column;
-        align-items: stretch;
+        align-items: center;
+        text-align: center;
+        gap: 3rem;
     }
+
     .about-content {
         width: 100%;
+        align-items: center;
+    }
+
+    .skills-content {
+        width: 100%;
+        align-items: center;
+    }
+
+    .skill-item {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 4rem;
+        width: 100%;
+    }
+
+    .skill-name {
+        width: 100px;
+        text-align: left;
+    }
+
+    .skill-bar-empty {
+        width: 90px;
+    }
+
+    .projects-cards-container {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .project-card {
+        width: 100%;
+        max-width: 420px;
+    }
+
+    .project-image-container {
+        aspect-ratio: 16 / 9;
+    }
+    .project-button {
+        width: 100%;
+        text-align: center;
+        align-self: stretch;
+    }
+
+    .contact-content {
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .form-container {
+        width: 100%;
+    }
+
+    .contact-info-container {
+        width: 100%;
+        padding: 0;
+        align-items: center;
+        text-align: center;
+    }
+
+    .contact-row {
+        max-width: 100%;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .contact-row a,
+    .contact-row p {
+        word-break: break-word;
+        overflow-wrap: anywhere;
+    }
+
+    .social-buttons-container {
+    justify-content: center;
+    align-items: center;
+    }
+
+    .social-image-container {
+        width: 48px;
+        height: 48px;
+        flex-shrink: 0;
     }
 }
