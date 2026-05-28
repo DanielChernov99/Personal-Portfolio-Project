@@ -4,7 +4,7 @@
     box-sizing:border-box;
 }
 
-/* rounded Styles */
+/* Common Styles */
 .rounded-corners-button{
     padding: 12px 24px;
     border: none;
@@ -13,6 +13,12 @@
     corner-shape: squircle;
     font-size: 1.25rem;
     font-weight: 700;
+}
+.button{
+    text-decoration: none;
+    display: inline-block;
+    color: #FFFFFF;
+    align-self: flex-start;
 }
 .rounded-bar{
     padding: 6px 0;
@@ -139,12 +145,7 @@ section{
     gap: 2rem;
 }
 .home-button{
-    text-decoration: none;
-    display: inline-block;
     background-color: #007AFF;
-    color: #FFFFFF;
-    padding: 0.75rem 1.5rem;
-    align-self: flex-start;
 }
 
 
@@ -270,10 +271,7 @@ section{
 }
 
 .project-button{
-    text-decoration: none;
     background-color: #FF9500;
-    color: #FFFFFF;
-    align-self: flex-start;
     margin-top: auto;
 
 }
@@ -311,19 +309,9 @@ section{
     flex-direction: column;
     gap: 0.5rem;
 }
-.form-container input,
-.form-container textarea{
-    padding: 0.75rem;
-    border: 1px solid #D1D1D6;
-}
 
 .contact-button{
-    text-decoration: none;
-    display: inline-block;
     background-color: #007AFF;
-    color: #FFFFFF;
-    padding: 0.75rem 1.5rem;
-    align-self: flex-start;
 }
 
 .contact-info-container{
@@ -387,8 +375,13 @@ section{
     font-size: 1rem;
     color: #3A3A3C;
     corner-shape: squircle;
-    resize: vertical;
 }
+.form-container textarea{
+    resize: vertical;
+    min-height: 120px;
+    max-height: 220px;
+}
+
 .info-data-container p,
 .info-data-container a{
     text-decoration: none;
