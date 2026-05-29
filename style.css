@@ -241,7 +241,7 @@ section{
     display: flex;
     justify-content: space-between;
     align-items: stretch;
-    gap: 2rem;
+    gap: 1rem;
 }
 .project-card{
     display: flex;
