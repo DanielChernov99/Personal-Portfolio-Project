@@ -386,7 +386,7 @@ section{
     line-height: 1.6;
     padding: 0.25rem 0.5rem;
 }
-
+.info-data-container p:hover,
 .info-data-container a:hover{
     color: #007AFF;
 }
@@ -529,9 +529,7 @@ section{
         width: 100%;
     }
 
-    .form-container {
-        width: 100%;
-    }
+  
 
     .contact-info-container {
         width: 100%;
@@ -563,21 +561,4 @@ section{
         flex-shrink: 0;
     }
 
-
-
-    .contact-content,
-    .projects-cards-container,
-    .nav-link-container {
-        max-width: 100%;
-    }
-
-    .contact-row {
-        max-width: 100%;
-        flex-wrap: wrap;
-    }
-
-    .contact-row a,
-    .contact-row p {
-        overflow-wrap: anywhere;
-    }
 }
