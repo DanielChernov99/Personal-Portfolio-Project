@@ -19,6 +19,7 @@
     display: inline-block;
     color: #FFFFFF;
     align-self: flex-start;
+    cursor: pointer;
 }
 .rounded-bar{
     padding: 6px 0;
