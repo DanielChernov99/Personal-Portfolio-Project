@@ -81,12 +81,14 @@ section{
     position: sticky;
     top: 0;
     z-index: 100;
+    box-shadow: -1px 7px 38px -1px rgba(0,0,0,0.51);
     }
 .nav-container{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 0;  
+    
 }
 .nav-container h2{
     color: #007AFF;
@@ -502,12 +504,12 @@ html {
         left: -1rem;
         right: -1rem;
 
-        flex-direction: column;
+        flex-direction: row;
         align-items: center;
         gap: 0;
 
         background-color: #FFFFFF;
-        box-shadow: 0 12px 30px rgba(0, 0, 0, 0.08);
+        box-shadow: -1px 7px 38px -1px rgba(0,0,0,0.51);
         z-index: 999;
     }
 
