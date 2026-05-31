@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daniel Chernov Portfolio</title>
-    <link rel="stylesheet" href="style.css?v=2.3">
+    <link rel="stylesheet" href="style.css?v=2.4">
     <link rel="icon" href="Images/icons/site-favicon.svg" type="image/svg+xml">
 </head>
 <body>
@@ -21,10 +21,10 @@
                     </button>
 
                     <ul class="nav-link-container" id="navLinks">
-                        <li><a href="#home" class="nav-link">Home</a></li>
-                        <li><a href="#about" class="nav-link">About</a></li>
-                        <li><a href="#projects" class="nav-link">Projects</a></li>
-                        <li><a href="#contact" class="nav-link">Contact</a></li>
+                        <li><a href="#home" class="nav-link" onclick="closeMenu()">Home</a></li>
+                        <li><a href="#about" class="nav-link" onclick="closeMenu()">About</a></li>
+                        <li><a href="#projects" class="nav-link" onclick="closeMenu()">Projects</a></li>
+                        <li><a href="#contact" class="nav-link" onclick="closeMenu()">Contact</a></li>
                     </ul>
                 </nav>
             </div>
@@ -254,6 +254,9 @@
         function toggleMenu() {
             const navLinks = document.getElementById("navLinks");
             navLinks.classList.toggle("open");
+        }
+        function closeMenu() {
+            document.getElementById("navLinks").classList.remove("open");
         }
     </script>
 </body>
