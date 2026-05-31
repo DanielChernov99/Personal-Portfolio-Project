@@ -390,6 +390,7 @@ html {
     display: block
 }
 .social-image-container:hover{
+    transform: scale(1.08);
     filter: brightness(80%);
 }
 
