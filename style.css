@@ -125,6 +125,16 @@ section{
     display: block;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+#home,
+#about,
+#projects,
+#contact {
+    scroll-margin-top: 90px;
+}
+
 /* ------------------------------ */
 /* ---------Home Section--------- */
 /* -------------------------------*/
@@ -398,11 +408,14 @@ section{
     font-size: 1rem;
     color: #3A3A3C;
     corner-shape: squircle;
-    focus{
-        outline: none;
-        border-color: #007AFF;
-    }
+
 }
+.form-container input:focus,
+.form-container textarea:focus {
+    outline: none;
+    border-color: #007AFF;
+}
+
 .form-container textarea{
     resize: vertical;
     min-height: 120px;
